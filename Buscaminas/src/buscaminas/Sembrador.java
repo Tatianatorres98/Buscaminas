@@ -11,12 +11,12 @@ package buscaminas;
  */
 public class Sembrador {
     
-    void sembrarminas(Celda misceldas [] [], int cantidad){
+    void sembrarminas(Celda lasceldas [] [], int cantidad){
         //For each en Java
-        for (Celda[] fila:misceldas){
+        for (Celda[] fila:lasceldas){
             for (Celda celda:fila){
-                
-                celda.getMina();
+                Corazon cora=new Corazon();
+                celda.setCorazon(cora);
             }
             
         }

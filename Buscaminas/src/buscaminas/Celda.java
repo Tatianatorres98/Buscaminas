@@ -12,7 +12,7 @@ package buscaminas;
 public class Celda {
 
     private boolean estado;
-    private Mina mina;
+    private Corazon corazon;
     private Bandera bandera;
     private int minasalrededor;
 
@@ -24,12 +24,12 @@ public class Celda {
         this.estado = estado;
     }
 
-    public Mina getMina() {
-        return mina;
+    public Corazon getCorazon() {
+        return corazon;
     }
 
-    public void setMina(Mina mina) {
-        this.mina = mina;
+    public void setCorazon(Corazon corazon) {
+        this.corazon = corazon;
     }
 
     public Bandera getBandera() {

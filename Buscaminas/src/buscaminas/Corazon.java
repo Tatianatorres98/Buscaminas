@@ -9,6 +9,6 @@ package buscaminas;
  *
  * @author Estudiantes
  */
-public class Mina {
+public class Corazon {
     
 }
