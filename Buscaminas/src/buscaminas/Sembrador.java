@@ -13,10 +13,10 @@ public class Sembrador {
     
     void sembrarminas(Celda lasceldas [] [], int cantidad){
         //For each en Java
-        for (Celda[] fila:lasceldas){
-            for (Celda celda:fila){
+        for (Celda[] lafila:lasceldas){
+            for (Celda lacelda:lafila){
                 Corazon cora=new Corazon();
-                celda.setCorazon(cora);
+                lacelda.setCorazon(cora);
             }
             
         }
